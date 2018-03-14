@@ -1,0 +1,261 @@
+html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        /* overflow-y: hidden; */
+    }
+
+    /* Global Styles */
+
+    #topbar {
+        margin: 0;
+        padding: 0;
+        background: rgb(80, 115, 180);
+        /* margin-top: -1rem; */
+        position: fixed;
+        width: 100%;
+    }
+
+    nav {
+        background: rgb(80, 115, 180);
+        color: white;
+        /* text-align: right; */
+        float: right;
+        margin-right: 3rem;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 1rem 0.5rem;
+    }
+
+    nav li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav li:hover {
+        background: gray;
+    }
+    a{color: green;
+        text-decoration: none;
+
+    }
+    a:hover{color:yellow;
+        text-decoration: underline;
+
+    }
+    a:active{color: blue;
+        text-decoration: none;
+
+    }
+    a:visited{
+        text-decoration: none;
+
+    }
+
+
+    
+    
+        
+
+
+        
+
+        
+
+    
+
+    .logo {
+        float: left;
+        margin-top: 1rem;
+        margin-left: 50px;
+        color: white;
+        font-size: 2rem;
+        padding: 5px 10px;
+        border: 2px solid #ccc;
+        color: white;
+        text-decoration: none;
+    }
+
+    .title {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 1rem;
+        color: rgb(80, 115, 180);
+    }
+
+    section {
+        padding-top: 100px;
+        min-height: 100vh;
+    }
+
+    #home,
+    #resume,
+    #contact {
+        background:rgb(80, 115, 180);
+        color: #fff;
+    }
+
+    #home .title1,
+    #resume .title,
+    #contact .title {
+
+        color: #fff;
+    }
+    .header{
+      color: #ccc;
+      font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;  
+      font-size: 50px; 
+      text-align: center;
+      margin-bottom: 100px;
+    }
+    .header2{
+        color: #ccc;
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell;  
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 100px;
+      }
+    .image{
+        height: 210px;
+        width: 200px;
+        border-radius: 100px;
+        border: 8px solid white;
+        margin-top: -20px;
+    }
+    .imagediv{
+        float: left;
+        padding: 10%;
+    }
+    .writeup{
+        float: right;
+        padding: 10%;   
+
+    }
+    .hr1{
+        margin-top: -22px; 
+        margin-left: 35%;
+        border-bottom: 5px solid brown;
+    }
+
+    .hr2{
+        margin-top: 70px;
+        margin-left: 55%;
+        border-bottom: 5px solid brown;
+    }
+
+    .hr11{
+        margin-top: -22px; 
+        margin-left: 35%;
+        border-bottom: 5px solid white;
+    }
+
+    .hr12{
+        margin-top: 70px;
+        margin-left: 55%;
+        border-bottom: 5px solid white;
+    }
+    .hr111{
+        margin-top: -14px;
+        margin-left: 35%;
+        border-bottom: 5px solid white;
+    }
+    .hr122{
+        margin-top: 70px;
+        margin-left: 55%;
+        border-bottom: 5px solid white;
+    }
+
+    .res{
+        margin-left: 330px;
+        margin-top: 70px;
+    }
+    .line{
+        margin-top: 30px;
+    }
+    .iconimage{
+        height: 90px;
+        width: 90px;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .res1{
+        margin-left: 330px;
+        margin-top: -70px;
+    }
+    .res2{
+        float: right;
+        margin-top: -30px;
+        padding-right: 25%;
+    }
+    .res3{
+        margin-left: 330px;
+        margin-top: 50px;
+    }
+    .li1{
+        margin-left: 330px;
+        /* margin-top: 50px; */
+    }
+
+    .img1{
+        padding-left: 6%;
+        margin-top: 100px;
+    }
+
+    .img2{
+        float: right;
+        margin-top: -17%;
+        padding-right: 40%;
+    }
+    .img3{
+        float: right;
+        margin-top: -17%;
+        padding-right: 10%;
+    }
+    .imgp1{
+        height: 210px;
+        width: 300px; 
+    }
+    .dice{
+        height: 130px;
+        width: 130px;
+        float: right;
+        padding-right: 200px;
+    }
+    .smiley{
+        height: 130px;
+        width: 130px;
+        padding-left: 300px;
+        /* float: right;
+        margin-left: 10%; */
+    }
+    .laptop{
+        height: 130px;
+        width: 130px;
+        margin-top: -30%;
+        padding-left: 200px;
+    }
+    .star{
+        height: 80px;
+        width: 80px;
+        margin-top: -50px;
+        padding-left: 15px;
+    }
+    /* .star1{
+        height: 80px;
+        width: 80px;
+        margin-top: -50px;
+        padding-left: 15px;
+        
+    } */
+    .fas{
+    color:brown;
+    }
